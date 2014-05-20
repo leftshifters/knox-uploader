@@ -6,8 +6,8 @@ Upload to Amazon S3 using knox
 Install the module with: `npm install knox-uploader`
 
 ```javascript
-var knox_uploader = require('knox-uploader');
-knox_uploader.awesome(); // "awesome"
+var uploader = require('knox-uploader');
+uploader.upload(keys, file);
 ```
 
 ## Documentation
@@ -23,5 +23,5 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 _(Nothing yet)_
 
 ## License
-Copyright (c) 2014 Prama  
+Copyright (c) 2014 Prama
 Licensed under the MIT license.
